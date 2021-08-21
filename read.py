@@ -5,4 +5,3 @@ with open('./dataset_20210813/418225383.csv','rt',encoding="utf-8") as csvfile:
 for i in column:
     if i[:7]!='Boy-21-' and i[:8]!='Girl-21-':
         print('@'+i)
-        print(qqNumber)
