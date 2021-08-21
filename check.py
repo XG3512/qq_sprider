@@ -38,3 +38,4 @@ for stuindex, studata in studf.iterrows():
     if flag==0:
         info=dict(STUname=studata['name'],STUsex=studata['sex'],STUphone=studata['phone'],STUclass=studata['class'],STUnum=studata['stuNum'],reason='当前不在群聊中')
         write('NotInGroup.csv',info)
+        #wee
